@@ -20,8 +20,43 @@
               "icon": "lucide-file",
               "title": "Test Note"
             }
+          },
+          {
+            "id": "e2ed391370464014",
+            "type": "leaf",
+            "state": {
+              "type": "aHR0cDovLzEyNy4wLjAuMTo1MTAwMC8=",
+              "state": {},
+              "icon": "aHR0cDovLzEyNy4wLjAuMTo1MTAwMC8=",
+              "title": "Vibe"
+            }
+          },
+          {
+            "id": "0a8ff8abbde75003",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-01-21 01.42.51.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-01-21 01.42.51.excalidraw"
+            }
+          },
+          {
+            "id": "1ab45ba9843ce099",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-01-21 01.42.51.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-01-21 01.42.51.excalidraw"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -176,16 +211,6 @@
             }
           },
           {
-            "id": "e2ed391370464014",
-            "type": "leaf",
-            "state": {
-              "type": "aHR0cDovLzEyNy4wLjAuMTo1MTAwMC8=",
-              "state": {},
-              "icon": "aHR0cDovLzEyNy4wLjAuMTo1MTAwMC8=",
-              "title": "Vibe"
-            }
-          },
-          {
             "id": "0b0c3cc1d3ade090",
             "type": "leaf",
             "state": {
@@ -200,7 +225,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 1068.5
+    "width": 788.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -213,12 +238,16 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "97f23779ef1d2408",
+  "active": "1ab45ba9843ce099",
   "lastOpenFiles": [
+    "файлик.md",
+    "Excalidraw/Drawing 2026-01-21 01.42.51.excalidraw.md",
+    "Test Note.md",
     "Welcome.md",
-    "Test Note.md"
+    "Excalidraw"
   ]
 }
