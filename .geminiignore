@@ -1,0 +1,9 @@
+# Ignore internal plugin data to reduce context noise
+.obsidian/plugins/
+.obsidian/workspace.json
+.obsidian/graph.json
+.git/
+node_modules/
+dist/
+build/
+.DS_Store
