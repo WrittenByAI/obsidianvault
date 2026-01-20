@@ -35,24 +35,24 @@
             "id": "0a8ff8abbde75003",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-01-21 01.42.51.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-01-21 01.42.51.excalidraw"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
             "id": "1ab45ba9843ce099",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2026-01-21 01.42.51.excalidraw.md"
+                "file": "Test Note.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-01-21 01.42.51.excalidraw"
+              "icon": "lucide-file",
+              "title": "Test Note"
             }
           }
         ],
@@ -216,8 +216,8 @@
             "state": {
               "type": "aHR0cHM6Ly9naXRodWIuY29tL1dyaXR0ZW5CeUFJL29ic2lkaWFudmF1bHQvbmV0d29yaw==",
               "state": {},
-              "icon": "aHR0cHM6Ly9naXRodWIuY29tL1dyaXR0ZW5CeUFJL29ic2lkaWFudmF1bHQvbmV0d29yaw==",
-              "title": "https://github.com/WrittenByAI/obsidianvault/network"
+              "icon": "lucide-ghost",
+              "title": "aHR0cHM6Ly9naXRodWIuY29tL1dyaXR0ZW5CeUFJL29ic2lkaWFudmF1bHQvbmV0d29yaw=="
             }
           }
         ],
@@ -229,7 +229,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "open-gate:https://github.com/WrittenByAI/obsidianvault/network": false,
       "open-gate:Vibe": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -244,10 +243,11 @@
   },
   "active": "1ab45ba9843ce099",
   "lastOpenFiles": [
-    "файлик.md",
-    "Excalidraw/Drawing 2026-01-21 01.42.51.excalidraw.md",
-    "Test Note.md",
+    "Git Шпаргалка.md",
     "Welcome.md",
-    "Excalidraw"
+    "Test Note.md",
+    "Excalidraw/Drawing 2026-01-21 01.42.51.excalidraw.md",
+    "Excalidraw",
+    "файлик.md"
   ]
 }
