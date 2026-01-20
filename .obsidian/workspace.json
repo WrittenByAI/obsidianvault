@@ -4,26 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "5840837707f28e0a",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "64eb8f23fd423209",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "Welcome.md",
-                "bFile": "Welcome.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: Welcome  (Working Tree)"
-            }
-          }
-        ]
-      },
-      {
         "id": "5adec091e0730cec",
         "type": "tabs",
         "children": [
@@ -33,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Welcome.md",
+                "file": "Test Note.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Welcome"
+              "title": "Test Note"
             }
           }
         ]
@@ -114,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Welcome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Welcome"
             }
           },
           {
@@ -203,16 +184,27 @@
               "icon": "aHR0cDovLzEyNy4wLjAuMTo1MTAwMC8=",
               "title": "Vibe"
             }
+          },
+          {
+            "id": "0b0c3cc1d3ade090",
+            "type": "leaf",
+            "state": {
+              "type": "aHR0cHM6Ly9naXRodWIuY29tL1dyaXR0ZW5CeUFJL29ic2lkaWFudmF1bHQvbmV0d29yaw==",
+              "state": {},
+              "icon": "aHR0cHM6Ly9naXRodWIuY29tL1dyaXR0ZW5CeUFJL29ic2lkaWFudmF1bHQvbmV0d29yaw==",
+              "title": "https://github.com/WrittenByAI/obsidianvault/network"
+            }
           }
         ],
         "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 983.5
+    "width": 877.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "open-gate:https://github.com/WrittenByAI/obsidianvault/network": false,
       "open-gate:Vibe": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -224,8 +216,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e2ed391370464014",
+  "active": "97f23779ef1d2408",
   "lastOpenFiles": [
-    "Welcome.md"
+    "Welcome.md",
+    "Test Note.md"
   ]
 }
