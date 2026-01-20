@@ -1,0 +1,16 @@
+{
+  "uuid": "09dm1te6omzcq8fujkkdpy",
+  "gates": {
+    "aHR0cDovLzEyNy4wLjAuMTo1MTAwMC8=": {
+      "id": "aHR0cDovLzEyNy4wLjAuMTo1MTAwMC8=",
+      "title": "Vibe",
+      "icon": "<svg viewBox=\"0 0 100 100\"><image href=\"https://icon.horse/icon/127.0.0.1\" height=\"100\" width=\"100\" /></svg>",
+      "hasRibbon": true,
+      "position": "right",
+      "profileKey": "open-gate",
+      "url": "http://127.0.0.1:51000/",
+      "zoomFactor": 1,
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+    }
+  }
+}
