@@ -1,0 +1,109 @@
+flowchart TD
+    %% === ЦЕЛИ ПРОЕКТА ===
+    %% Главная цель: PKM-система с AI-агентами для борьбы с хаосом и импульсивностью
+    %% Текущий фокус: Проблема планирования — действия не привязаны к целям
+
+    %% === СТАРТ ===
+    %% @project_start [start, closed]
+    project_start("Инициализация Obsidian Vault<br/><sub>Создан Git-репозиторий с базовыми<br/>заметками, настроена синхронизация<br/>через GitHub и первоначальная<br/>структура папок (Inbox, Templates)</sub>")
+
+    %% @ultimate_goal [end, opened]
+    ultimate_goal("Порядок вместо хаоса<br/><sub>Система где действия привязаны<br/>к целям, нет свалки заметок,<br/>AI помогает довести дела<br/>до конца без импульсивности</sub>")
+
+    %% === ИНФРАСТРУКТУРА (ГОТОВО) ===
+    %% @git_setup [ai-task, closed]
+    git_setup("Git-синхронизация<br/><sub>Подключён Obsidian Git плагин,<br/>автоматические бэкапы каждые 30 мин,<br/>создана шпаргалка Pull→Commit→Push</sub>")
+
+    %% @plugins_setup [ai-task, closed]
+    plugins_setup("Плагины Obsidian<br/><sub>Shell Commands, Local REST API,<br/>Custom Frames/Open Gate для<br/>Vibe Kanban, QuickAdd для пресетов</sub>")
+
+    %% @vibe_kanban [ai-task, closed]
+    vibe_kanban("Vibe Kanban интеграция<br/><sub>AI worktrees (vk/xxxx-) работают,<br/>агенты создают ветки для задач,<br/>коммиты видны в Git-истории</sub>")
+
+    %% @ai_rules [ai-task, closed]
+    ai_rules("Правила AI-агентов<br/><sub>Anti-Pollution Policy для памяти,<br/>Anti-Laziness Policy для инструментов,<br/>Hybrid Model: Opus+Gemini</sub>")
+
+    %% @templates [ai-task, closed]
+    templates("Шаблоны заметок<br/><sub>Daily Note с фокусом дня и<br/>итогами, Project Note со статусом<br/>и связью с Goals</sub>")
+
+    %% === КЛЮЧЕВАЯ ПРОБЛЕМА ===
+    %% @core_problem [blocker, closed]
+    core_problem("⚠️ КОРНЕВАЯ ПРОБЛЕМА<br/><sub>Отсутствие планирования как такового.<br/>Действия импульсивны, не привязаны<br/>к цели, ничего не доводится до конца.<br/>Это причина свалки заметок.</sub>")
+
+    %% === ТЕКУЩИЙ ФОКУС ===
+    %% @define_goals [ai-task, opened]
+    define_goals("Определить цели<br/><sub>Заполнить Goals.md конкретными<br/>целями: год → квартал → месяц<br/>→ неделя → день. Привязать<br/>каждое действие к цели.</sub>")
+
+    %% @ai_expectations [condition, opened]
+    ai_expectations("Понять границы ИИ<br/><sub>Что реально могут агенты?<br/>Где я жду слишком много?<br/>Определить реалистичные ожидания<br/>и зоны ответственности.</sub>")
+
+    %% === СЛЕДУЮЩИЕ ШАГИ ===
+    %% @daily_routine [ai-task, opened]
+    daily_routine("Ежедневный ритуал<br/><sub>Утро: Pull + Daily Note + фокус<br/>Вечер: Итоги + Commit + Push<br/>Автоматизировать через QuickAdd</sub>")
+
+    %% @project_workflow [ai-task, opened]
+    project_workflow("Воркфлоу проектов<br/><sub>От идеи → Goal → Project Note<br/>→ Tasks → Vibe Kanban → Done<br/>Каждый шаг отслеживается</sub>")
+
+    %% @cleanup_inbox [human-task, opened]
+    cleanup_inbox("Разобрать Inbox<br/><sub>Reflections.md и другие заметки<br/>либо обработать (привязать к цели)<br/>либо удалить как мусор</sub>")
+
+    %% === СВЯЗИ ===
+    project_start --> git_setup
+    project_start --> plugins_setup
+    git_setup --> vibe_kanban
+    plugins_setup --> vibe_kanban
+    project_start --> templates
+    project_start --> ai_rules
+
+    vibe_kanban --> core_problem
+    ai_rules --> core_problem
+    templates --> core_problem
+
+    core_problem --> define_goals
+    core_problem --> ai_expectations
+
+    define_goals --> daily_routine
+    define_goals --> project_workflow
+    define_goals --> cleanup_inbox
+
+    daily_routine -.-> ultimate_goal
+    project_workflow -.-> ultimate_goal
+    cleanup_inbox -.-> ultimate_goal
+    ai_expectations -.-> ultimate_goal
+
+    %% === НЕДАВНЯЯ РАБОТА ===
+    subgraph recent [ТЕКУЩИЙ ФОКУС]
+        core_problem
+        define_goals
+    end
+
+    %% === СТИЛИ ===
+    %% Start (teal)
+    style project_start fill:#1a1a2e,stroke:#2dd4bf,color:#5eead4,stroke-width:2px
+
+    %% Ultimate Goal (gray)
+    style ultimate_goal fill:#1a1a2e,stroke:#6b7280,color:#9ca3af,stroke-width:1px
+
+    %% Closed (purple)
+    style git_setup fill:#1a1a2e,stroke:#a78bfa,color:#c4b5fd,stroke-width:1px
+    style plugins_setup fill:#1a1a2e,stroke:#a78bfa,color:#c4b5fd,stroke-width:1px
+    style vibe_kanban fill:#1a1a2e,stroke:#a78bfa,color:#c4b5fd,stroke-width:1px
+    style ai_rules fill:#1a1a2e,stroke:#a78bfa,color:#c4b5fd,stroke-width:1px
+    style templates fill:#1a1a2e,stroke:#a78bfa,color:#c4b5fd,stroke-width:1px
+
+    %% Blocker (red) - highlighted
+    style core_problem fill:#2d1f1f,stroke:#f87171,color:#fca5a5,stroke-width:2px
+
+    %% Current focus (bright purple)
+    style define_goals fill:#2d1f4e,stroke:#c084fc,color:#e9d5ff,stroke-width:2px
+
+    %% Condition (yellow)
+    style ai_expectations fill:#1a1a2e,stroke:#fbbf24,color:#fde68a,stroke-width:1px
+
+    %% Open tasks (green)
+    style daily_routine fill:#1a1a2e,stroke:#4ade80,color:#86efac,stroke-width:1px
+    style project_workflow fill:#1a1a2e,stroke:#4ade80,color:#86efac,stroke-width:1px
+    style cleanup_inbox fill:#1a1a2e,stroke:#4ade80,color:#86efac,stroke-width:1px
+
+    %% Subgraph (dashed)
+    style recent fill:transparent,stroke:#c084fc,color:#c084fc,stroke-width:2px,stroke-dasharray:5 5
