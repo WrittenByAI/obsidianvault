@@ -37,12 +37,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/Daily Note.md",
+                "file": "Goals.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Daily Note"
+              "title": "Goals"
             }
           }
         ],
@@ -233,11 +233,11 @@
   },
   "active": "0a8ff8abbde75003",
   "lastOpenFiles": [
+    "Git Шпаргалка.md",
     "AI_Workflow_Strategy.md",
+    "Templates/Daily Note.md",
     "Goals.md",
     "Test Note.md",
-    "Git Шпаргалка.md",
-    "Templates/Daily Note.md",
     "Templates/Project Note.md",
     "Inbox/Reflections.md",
     "файлик.md",
