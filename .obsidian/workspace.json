@@ -37,12 +37,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Reflections.md",
+                "file": "Templates/Daily Note.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Reflections"
+              "title": "Daily Note"
             }
           }
         ],
@@ -181,13 +181,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md",
+                "file": "AI_Workflow_Strategy.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Welcome"
+              "title": "Outline of AI_Workflow_Strategy"
             }
           },
           {
@@ -215,7 +215,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5
+    "width": 396.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -234,15 +234,15 @@
   "active": "0a8ff8abbde75003",
   "lastOpenFiles": [
     "AI_Workflow_Strategy.md",
-    "Git Шпаргалка.md",
     "Goals.md",
-    "файлик.md",
     "Test Note.md",
-    "Welcome.md",
-    "Templates/Project Note.md",
+    "Git Шпаргалка.md",
     "Templates/Daily Note.md",
-    "Agent_Rules.md",
+    "Templates/Project Note.md",
     "Inbox/Reflections.md",
+    "файлик.md",
+    "Welcome.md",
+    "Agent_Rules.md",
     "Excalidraw/Drawing 2026-01-21 01.42.51.excalidraw.md",
     "workflow.mmd",
     "vizvibe.mmd",
