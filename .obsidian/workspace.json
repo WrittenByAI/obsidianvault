@@ -115,8 +115,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "d751a40775846a92",
@@ -246,8 +245,8 @@
   },
   "active": "638972f8341ac1a5",
   "lastOpenFiles": [
-    "Git Шпаргалка.md",
     "Excalidraw/Drawing 2026-01-22 00.19.40.excalidraw.md",
+    "Git Шпаргалка.md",
     "файлик.md",
     "Welcome.md",
     "Test Note.md",
